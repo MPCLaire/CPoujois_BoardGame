@@ -1,5 +1,7 @@
 # CPoujois_BoardGame
  
+Attention, Visual Studio étant particulièrement capricieux, il faut l'ouvrir et générer la solution pour avoir tout le prjet :)
+
 Pour le fonctionnement du mini-jeu de collecte, j'ai d'abord créé une nouvelle map. J'ai réutilisé le BP_ThirdPersonCharacter pour les mouvements. 
 Les objets collectables BP_ItemBonus et BP_ItemMalus sont des enfants de la classe cpp Collectible. À l'intérieur, il y a une fonction "PickUp" qui s'active lorsque je rentre dans la box collision d'un des items.
 Il y a trois variables, une booléenne IsBonus qui se set à l'intérieur des items, et deux integer ScoreBonus et ScoreMalus. Dans la fonction PickUp, je viens vérifier si 
